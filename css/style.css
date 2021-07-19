@@ -1,0 +1,32 @@
+.container{
+    margin-bottom: 100px;
+}
+.panda-bg{
+    background-color: #fceae8;
+}
+.price{
+    font-weight: 600;
+    color: #FF136F;
+}
+.panda-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.category-1{
+    background-color: orange;
+}
+.category-2{
+    background-color: orchid;
+}
+.category-3{
+    background-color: blue;
+}
+.category img{
+    width: 100px;
+}
+.cards h5{
+    font-weight: 600;
+}
