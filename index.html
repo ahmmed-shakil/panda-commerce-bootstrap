@@ -17,7 +17,7 @@
     <header>
         <!-- Navbar Start -->
         <section class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -32,19 +32,15 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
         </section>
@@ -133,7 +129,7 @@
             </div>
         </section>
         <!-- Shoes Start -->
-        <section class="container cards">
+        <section id="shoes" class="container cards">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -182,7 +178,7 @@
             </div>
         </section>
         <!-- Bags Start -->
-        <section class="container cards">
+        <section id="backpack" class="container cards">
             <h1>Bags</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -230,7 +226,8 @@
             </div>
         </section>
         <!-- Subscribe -->
-        <section style="height: 300px;" class="container panda-bg d-flex align-items-center justify-content-center">
+        <section id="subscribe" style="height: 300px;"
+            class="container panda-bg d-flex align-items-center justify-content-center">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <h5>Get updates on sales, specials and more</h5>
